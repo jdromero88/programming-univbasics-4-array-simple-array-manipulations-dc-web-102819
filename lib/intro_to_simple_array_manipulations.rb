@@ -34,3 +34,6 @@ def using_delete(array, string)
   new_arreglo = array.delete(string)
   return new_arreglo
 end
+def using_delete_at(array, n)
+  array.delete_at(n)
+end
