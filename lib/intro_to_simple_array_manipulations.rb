@@ -27,6 +27,10 @@ end
 def using_uniq(array)
   array.uniq
 end
+def using_flatten(array, array_uno)
+  array = array_uno
+  array.flatten
+end
 def using_delete(array, string)
   new_arreglo = array.delete(string)
   return new_arreglo
